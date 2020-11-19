@@ -186,7 +186,7 @@ describe "#display_board in 'lib/display_board.rb" do
     end
 
     it 'prints an entire board full of Os' do
-      board = ["0", "0", "0", "0", "0", "0", "0", "0", "o"]
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
       output = capture_puts{ display_board(board) }
       rows = output.split("\n")
